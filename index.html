@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="./lib/js/bootstrap.min.js"></script>
+        <script src="./frontOsaka.js"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
+        <title>FrontOsaka</title>
+    </head>
+
+    <body>
+        <!-- headerを作る -->
+        <div class="header">
+            <div class="container-fruid">
+                <div class="row row-header">
+                    <div id="head" class="col-xs-12">
+                        <img src="./img/conference-64.ico" alt="">
+                        <h1 id="title">FrontOsaka</h1>
+                        <!-- navにhiddenクラスつかず -->
+                        <nav>
+                            <a href="#about">
+                                About
+                            </a>
+                            <a href="#organizers">
+                                Organizers
+                                <span class="popup">管理者</span>
+                            </a>
+                            <a href="#activities">
+                                Activities
+                                <span class="popup">過去の活動</span>
+                            </a>
+                            <a href="#events">
+                                Events
+                                <span class="popup">募集中のイベント</span>
+                            </a>
+                        </nav>
+                    </div><!-- #head -->
+                    <div id="welcome" class="col-xs-12">
+                        <h2>
+                            <span class="textbound1">W</span>
+                            <span class="textbound2">e</span>
+                            <span class="textbound3">l</span>
+                            <span class="textbound4">c</span>
+                            <span class="textbound5">o</span>
+                            <span class="textbound6">m</span>
+                            <span class="textbound7">e</span>
+                        </h2>
+                        <button type="button" onClick="window.open('http://kfug.connpass.com/event/11936/')">  &nbsp;&nbsp;FrontOsakaのイベントに参加する&nbsp;&nbsp;  </button>
+                    </div><!-- #hero -->
+                </div><!-- row-header -->
+            </div><!-- .container-fruid -->
+        </div><!-- header -->
+        <!-- .section#Aboutを作る -->
+        <div class="section" id="about">
+            <div class="container-fruid">
+                <div class="row" id="row-about">
+                    <div class="col-xs-12">
+                        <h1>About</h1>
+                        <p id="message-from-osaka">
+
+                            フロントエンド技術の移り変わりの激しさに困り果てた関西のエンジニア達により、勢いで結成された会です。<br><br>
+
+                            JavaScriptフレームワーク、テスト、AltJS。<br>
+                            SassにCompassなどのCSS周り技術。<br>
+
+                            Gruntが流行りチャレンジすればGulpが出てきてこれからはこっちだ!なんて言われる昨今・・・<br>
+
+
+                            みなさんもこの、フロントエンド周囲の技術の移り変わりの激しさ、めまぐるしいスピードにお困りではありませんか?<br>
+
+
+                            そこで!フロントエンド界隈を取り巻く様々な周辺技術について<br>
+
+
+                            「最近何が流行ってるの?」「○○ってよく名前聞くけどどうなのよ?」「実際、業務って何使って進めてる?」<br>
+
+                            みたいな話を集まってできればと思っております。
+                        </p>
+                    </div>
+                </div><!-- #row-about -->
+            </div><!-- container-fruid -->
+        </div><!-- #about -->
+        <!-- .section#organizersを作る -->
+        <div class="section" id="organizers">
+            <div class="container-fruid">
+                <div class="row" id="row-organizers">
+                    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3">
+                        <h1>Organizers</h1>
+                        <div class="row row-member">
+                            <div class="iconWithName">
+                                <img src="./img/Goto100.jpg" alt="">
+                                <h2>後藤知宏</h2>
+                            </div>
+                            <ul class="organizers-comment">
+                                <li><span>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</span></li>
+                                <li>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</li>
+                                <li>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</li>
+                                <li>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</li>
+                                <li>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</li>
+                            </ul>
+                        </div>
+                        <div class="row row-member">
+                            <div class="iconWithName">
+                                <img src="./img/Takahashi100.jpg" alt="">
+                                <h2>高橋慎一</h2>
+                            </div>
+                            <ul class="organizers-comment">
+                                <li>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</li>
+                                <li>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</li>
+                                <li>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</li>
+                                <li>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</li>
+                                <li>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- #row-organizers -->
+            </div><!-- .container-fruid -->
+        </div><!-- .section#organizers -->
+        <!-- .section#activitiesを作る -->
+        <div class="section" id="activities">
+            <div class="container-fruid">
+                <div class="row" id="row-activities">
+                    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3">
+                        <h1>Activities</h1>
+                        <div class="content">
+                            <div class="row row-activities">
+                                <img src="./img/activities.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>コメント:</li>
+                                </ul>
+                            </div>
+                            <div class="row row-activities">
+                                <img src="./img/activities.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>コメント:</li>
+                                </ul>
+                            </div>
+                        </div><!-- /.content -->
+                        <button class="more">read more</button>
+                        <div class="content">
+                            <div class="row row-activities">
+                                <img src="./img/activities.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>コメント:</li>
+                                </ul>
+                            </div>
+                            <div class="row row-activities">
+                                <img src="./img/activities.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>コメント:</li>
+                                </ul>
+                            </div>
+                        </div><!-- /.content -->
+                        <button class="more">read more</button>
+                        <div class="content">
+                            <div class="row row-activities">
+                                <img src="./img/activities.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>コメント:</li>
+                                </ul>
+                            </div>
+                            <div class="row row-activities">
+                                <img src="./img/activities.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>コメント:</li>
+                                </ul>
+                            </div>
+                        </div><!-- /.content -->
+                    </div>
+                </div><!-- #row-activities -->
+            </div><!-- .container-fruid -->
+        </div><!-- .section#activities -->
+        <!-- .section#eventsを作る -->
+        <div class="section" id="events">
+            <div class="container-fruid">
+                <div class="row" id="row-events">
+                    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3">
+                        <h1>Events</h1>
+                        <div class="content">
+                            <div class="row row-events">
+                                <img src="./img/events.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>募集人数:</li>
+                                </ul>
+                            </div>
+                            <div class="row row-events">
+                                <img src="./img/events.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>募集人数:</li>
+                                </ul>
+                            </div>
+                        </div><!-- / .content -->
+                        <button class="more">read more</button>
+                        <div class="content">
+                            <div class="row row-events">
+                                <img src="./img/events.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>募集人数:</li>
+                                </ul>
+                            </div>
+                            <div class="row row-events">
+                                <img src="./img/events.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>募集人数:</li>
+                                </ul>
+                            </div>
+                        </div><!-- / .content -->
+                        <button class="more">read more</button>
+                        <div class="content">
+                            <div class="row row-events">
+                                <img src="./img/events.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>募集人数:</li>
+                                </ul>
+                            </div>
+                            <div class="row row-events">
+                                <img src="./img/events.jpg" alt="">
+                                <ul>
+                                    <li>イベント名:</li>
+                                    <li>日時:</li>
+                                    <li>場所:</li>
+                                    <li>概要:</li>
+                                    <li>募集人数:</li>
+                                </ul>
+                            </div>
+                        </div><!-- / .content -->
+                    </div><!-- /.col-xs-12 col-sm-10 col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3 -->
+                </div><!-- #row-events -->
+                <button class="btn btn-info" id="pagetopBtn" onclick="location.href='#head'">Page top</button>
+            </div><!-- .container-fruid -->
+        </div><!-- .section#events -->
+        <div class="footer">
+            <small>© 2015 frontkansai.net All Rights Reserved.</small>
+        </div>
+    </body>
+</html>

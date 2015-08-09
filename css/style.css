@@ -1,0 +1,25 @@
+/*header*/
+/* line 2, ../scss/style.scss */
+#head {
+  background: black;
+}
+/* line 4, ../scss/style.scss */
+#head img {
+  line-height: 70px;
+  padding-left: 40px;
+}
+/* line 8, ../scss/style.scss */
+#head h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  line-height: 70px;
+  display: inline;
+  color: #FFA500;
+  margin-right: 20px;
+  font-family: "Tahoma";
+}
+/* line 18, ../scss/style.scss */
+#head nav {
+  display: inline;
+}

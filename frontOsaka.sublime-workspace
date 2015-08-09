@@ -1,0 +1,684 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"drop",
+				"dropdown-toggle"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"col",
+				"col-sm-4"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"img",
+				"img	img"
+			],
+			[
+				"col-sm",
+				"col-sm-8"
+			],
+			[
+				"main",
+				"mainViewP"
+			],
+			[
+				"im",
+				"img3"
+			],
+			[
+				"re",
+				"replaceWith"
+			],
+			[
+				"ut",
+				"utf-8"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"insert",
+				"inserttBefore"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"data",
+				"data-toggle"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"he",
+				"header	<header>"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"hr",
+				"href	Attr"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"project_",
+				"projects_path"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"P",
+				"Project"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"h2",
+				"h2	Tag"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"button",
+				"button	Tag"
+			],
+			[
+				"nam",
+				"name	Attr"
+			],
+			[
+				"tex",
+				"textarea	Tag"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"input",
+				"inputt	input - text"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"Ca",
+				"Cake"
+			],
+			[
+				"default",
+				"date_default_timezone_set"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"test",
+				"testFile"
+			],
+			[
+				"tes",
+				"testFile"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"te",
+				"testFile"
+			],
+			[
+				"strt",
+				"strtotime"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"array",
+				"array	$… = array (…)"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"po",
+				"posts"
+			],
+			[
+				"prin",
+				"printf"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/hanayatakuma/Desktop/FrontOsaka/index.html",
+			"settings":
+			{
+				"buffer_size": 13788,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/hanayatakuma/Desktop/FrontOsaka/style.css",
+			"settings":
+			{
+				"buffer_size": 4870,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/hanayatakuma/Desktop/FrontOsaka/frontOsaka.js",
+			"settings":
+			{
+				"buffer_size": 715,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/hanayatakuma/Desktop/FrontOsaka/config.rb",
+			"settings":
+			{
+				"buffer_size": 49,
+				"line_ending": "Unix",
+				"name": "http_path = \"/\""
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "Package Control: I",
+		"selected_items":
+		[
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/hanayatakuma/Desktop/frontOsaka"
+	],
+	"file_history":
+	[
+		"/Users/hanayatakuma/Desktop/FrontOsaka/style.scss",
+		"/Users/hanayatakuma/Desktop/フロントエンドUGサイト 2/index.html",
+		"/Users/hanayatakuma/Desktop/フロントエンドUGサイト/css/bootstrap.min.css",
+		"/Users/hanayatakuma/Desktop/フロントエンドUGサイト/style.css",
+		"/Users/hanayatakuma/Desktop/フロントエンドUGサイト/index.html",
+		"/Users/hanayatakuma/Desktop/dotinstall/jQuery/index.html",
+		"/Users/hanayatakuma/Desktop/bootstrap/index.html",
+		"/Users/hanayatakuma/Desktop/mysite/index.html",
+		"/Users/hanayatakuma/Desktop/mysite/style.css",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/f76f7875-5e4e-4d16-925d-dfcc22125994/var/www/html/ajax_lessons/more.html",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/f76f7875-5e4e-4d16-925d-dfcc22125994/var/www/html/ajax_lessons/greet.php",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/b2c55e60-4a7d-48c7-a4db-71fe960907f6/var/www/html/wordpress/wp-config.php",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/f76f7875-5e4e-4d16-925d-dfcc22125994/var/www/html/ajax_lessons/index.html",
+		"/Users/hanayatakuma/Documents/2WordPress/vccw/README.md",
+		"/Users/hanayatakuma/Documents/2WordPress/vccw/site.yml",
+		"/Users/hanayatakuma/Documents/2WordPress/vccw/Vagrantfile",
+		"/Users/hanayatakuma/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/hanayatakuma/Desktop/index.html",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/49784d60-45e6-4b48-aa7e-312dd3e8d880/var/www/html/wordpress/wp-content/themes/dotinstall/index.php",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/49784d60-45e6-4b48-aa7e-312dd3e8d880/var/www/html/wordpress/wp-content/themes/dotinstall/functions.php",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/49784d60-45e6-4b48-aa7e-312dd3e8d880/var/www/html/wordpress/wp-content/themes/dotinstall/page.php",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/49784d60-45e6-4b48-aa7e-312dd3e8d880/var/www/html/wordpress/wp-content/themes/dotinstall/single.php",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/49784d60-45e6-4b48-aa7e-312dd3e8d880/var/www/html/wordpress/wp-content/themes/dotinstall/header.php",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/49784d60-45e6-4b48-aa7e-312dd3e8d880/var/www/html/wordpress/wp-content/themes/dotinstall/style.css",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/49784d60-45e6-4b48-aa7e-312dd3e8d880/var/www/html/wordpress/wp-content/themes/dotinstall/footer.php",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/49784d60-45e6-4b48-aa7e-312dd3e8d880/var/www/html/wordpress/wp-content/themes/dotinstall/sidebar.php",
+		"/private/var/folders/3p/0wjvb4xn46j29jmcyy7m2jqc0000gn/T/0e153b9c-3cae-47ff-9e2f-06d0d7e3f42a/home/vagrant/taskapp/app/models/project.rb",
+		"/Users/hanayatakuma/Documents/201506webDevelop2/cakephp/app/Controller/PostsController.php",
+		"/Users/hanayatakuma/Documents/201506webDevelop2/cakephp/app/View/Posts/index.ctp",
+		"/Users/hanayatakuma/Documents/201506webDevelop2/cakephp/app/View/Posts/view.ctp",
+		"/Users/hanayatakuma/Documents/201506webDevelop2/cakephp/app/View/Posts/add.ctp",
+		"/Users/hanayatakuma/Documents/201506webDevelop2/cakephp/app/View/Posts/edit.ctp",
+		"/Users/hanayatakuma/Documents/201506webDevelop2/cakephp/app/Model/Post.php",
+		"/Users/hanayatakuma/Documents/201506webDevelop2/cakephp/app/Model/AppModel.php",
+		"/Users/hanayatakuma/Documents/201506webDevelop2/cakephp/app/Config/database.php",
+		"/Users/hanayatakuma/Documents/201506webDevelop2/cakephp/app/View/Layouts/default.ctp",
+		"/Users/hanayatakuma/Desktop/dotInstall.php",
+		"/Users/hanayatakuma/Desktop/whoami.php",
+		"/Users/hanayatakuma/Desktop/index.ctp",
+		"/Users/hanayatakuma/Desktop/PostsController.php",
+		"/Users/hanayatakuma/Desktop/phpinfo.php",
+		"/Users/hanayatakuma/Desktop/piyo.php",
+		"/Users/hanayatakuma/Desktop/HelloWorld.html",
+		"/Users/hanayatakuma/Desktop/ai.php",
+		"/Users/hanayatakuma/Documents/201505webDevelop/Vagrantfile",
+		"/Users/hanayatakuma/Desktop/ios_dev/SynonymsApp/SynonymsApp/WordList.plist",
+		"/Users/hanayatakuma/Desktop/ios_dev/SynonymsApp/SynonymsApp/WordList2.plist",
+		"/Users/hanayatakuma/Desktop/ios_dev/plistSample/plistSample/WordList.plist",
+		"/Users/hanayatakuma/Desktop/WordList2.plist"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"865px",
+			"view3",
+			"en_",
+			"lang",
+			"WP_lang"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/hanayatakuma/Desktop/FrontOsaka/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13380,
+								13380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3714.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/hanayatakuma/Desktop/FrontOsaka/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								393
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/hanayatakuma/Desktop/FrontOsaka/frontOsaka.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/hanayatakuma/Desktop/FrontOsaka/config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"auto_name": "http_path = \"/\"",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "frontOsaka.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"a",
+				"~/Documents/201506webDevelop2/cakephp/app/Controller/PostsController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

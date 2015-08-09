@@ -1,0 +1,66 @@
+doctype
+html(lang="ja")
+    head
+        meta(charset="UTF=8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        script(src="http://code.jquery.com/jquery-1.11.3.min.js")
+        script(src="./js/bootstrap.min.js")
+        script(src="./frontOsaka.js")
+        link(rel="stylesheet" href="./style.css")
+        link(rel="stylesheet" href="./css/bootstrap.min.css")
+        title FrontOsaka
+
+    body
+        .header
+            .container-fruid
+                .row.row-header
+                    .col-xs-12#head
+                        img(src="./img/conference-64.ico" alt="")
+                        h1#title FrontOsaka
+                        nav
+                            a(href="#about") About
+                            a(href="#organizers") Organizers
+                                span.popup 管理者
+                            a(href="#activities") Activities
+                                span.popup 過去の活動
+                            a(href="#events") Events
+                                span.popup 募集中のイベント
+                    .col-xs-12#welcome
+                        h2
+                            span.textbound1 W
+                            span.textbound2 e
+                            span.textbound3 l
+                            span.textbound4 c
+                            span.textbound5 o
+                            span.textbound6 m
+                            span.textbound7 e
+                        button(type="button" onClick="window.open('http://kfug.connpass.com/event/11936/')")
+        .section#about
+            .container-fruid
+                .row#row-about
+                    .col-xs-12
+                        h1 About
+                        p#message-from-osaka コメント
+
+        .section#organizers
+            .container-fruid
+                .row#row-organizers
+                    .col-xs-12.col-sm-10.col-md-8.col-lg-6.col-sm-offset-1.col-md-offset-2.col-lg-offset-3
+                        h1 Organizers
+                        .row.row-member
+                            .iconWithName
+                                img(src="./img/Goto100.jpg" alt="")
+                                h2 後藤知宏
+                            ul.organizers-comment
+                                li コメント
+                                li コメント
+                        .row.row-member
+                            .iconWithName
+                                img(src="./img/Takahashi100.jpg" alt="")
+                                h2 高橋慎一
+                            ul.organizers-comment
+                                li コメント
+                                li コメント
+
+
