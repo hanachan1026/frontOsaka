@@ -1,15 +1,15 @@
 /*header*/
-/* line 2, ../scss/style.scss */
+/* line 4, ../scss/style.scss */
 #head {
   background: black;
 }
-/* line 4, ../scss/style.scss */
-#head img {
+/* line 6, ../scss/style.scss */
+#head > img {
   line-height: 70px;
   padding-left: 40px;
 }
-/* line 8, ../scss/style.scss */
-#head h1 {
+/* line 10, ../scss/style.scss */
+#head > h1 {
   margin: 0;
   padding: 0;
   font-size: 3rem;
@@ -19,7 +19,277 @@
   margin-right: 20px;
   font-family: "Tahoma";
 }
-/* line 18, ../scss/style.scss */
-#head nav {
+/* line 20, ../scss/style.scss */
+#head > nav {
   display: inline;
+}
+/* line 22, ../scss/style.scss */
+#head > nav > a {
+  font-size: 3rem;
+  padding: 20px;
+}
+/* line 25, ../scss/style.scss */
+#head > nav > a .popup {
+  display: none;
+  position: absolute;
+  top: 5.5em;
+  left: 2em;
+  font-size: 0.2em;
+}
+/* line 32, ../scss/style.scss */
+#head > nav > a :hover {
+  position: relative;
+  text-decoration: none;
+}
+/* line 35, ../scss/style.scss */
+#head > nav > a :hover .popup {
+  display: block;
+  padding: 3px;
+  color: #ffffff;
+}
+@media screen and (max-width: 865px) {
+  /* line 44, ../scss/style.scss */
+  #head > nav {
+    display: none;
+  }
+}
+
+/* line 50, ../scss/style.scss */
+#welcome {
+  text-align: center;
+  font-size: 3rem;
+  padding: 50px 0;
+}
+/* line 54, ../scss/style.scss */
+#welcome > h2 {
+  font-size: 10rem;
+  padding: 200px 0;
+}
+/* line 58, ../scss/style.scss */
+#welcome .textbound1 {
+  -moz-animation: bound 0.4s ease-in-out;
+  -webkit-animation: bound 0.4s ease-in-out;
+  animation: bound 0.4s ease-in-out;
+}
+/* line 61, ../scss/style.scss */
+#welcome .textbound2 {
+  -moz-animation: bound 0.9s ease-in-out;
+  -webkit-animation: bound 0.9s ease-in-out;
+  animation: bound 0.9s ease-in-out;
+}
+/* line 64, ../scss/style.scss */
+#welcome .texybound3 {
+  -moz-animation: bound 0.5s ease-in-out;
+  -webkit-animation: bound 0.5s ease-in-out;
+  animation: bound 0.5s ease-in-out;
+}
+/* line 67, ../scss/style.scss */
+#welcome .textbound4 {
+  -moz-animation: bound 0.8s ease-in-out;
+  -webkit-animation: bound 0.8s ease-in-out;
+  animation: bound 0.8s ease-in-out;
+}
+/* line 70, ../scss/style.scss */
+#welcome .textbound5 {
+  -moz-animation: bound 0.6s ease-in-out;
+  -webkit-animation: bound 0.6s ease-in-out;
+  animation: bound 0.6s ease-in-out;
+}
+/* line 73, ../scss/style.scss */
+#welcome .textbound6 {
+  -moz-animation: bound 0.4s ease-in-out;
+  -webkit-animation: bound 0.4s ease-in-out;
+  animation: bound 0.4s ease-in-out;
+}
+/* line 76, ../scss/style.scss */
+#welcome .textbound7 {
+  -moz-animation: bound 1.1s ease-in-out;
+  -webkit-animation: bound 1.1s ease-in-out;
+  animation: bound 1.1s ease-in-out;
+}
+@-moz-keyframes bound {
+  0% {
+    transform: scale(0) translate(0, -500px);
+  }
+  50% {
+    transform: scaleX(2) translate(0, 200px);
+  }
+  70% {
+    transform: scaleY(0.5) translate(0, -100px);
+  }
+  90% {
+    transform: scaleX(1.5) translate(0, 50px);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+@-webkit-keyframes bound {
+  0% {
+    transform: scale(0) translate(0, -500px);
+  }
+  50% {
+    transform: scaleX(2) translate(0, 200px);
+  }
+  70% {
+    transform: scaleY(0.5) translate(0, -100px);
+  }
+  90% {
+    transform: scaleX(1.5) translate(0, 50px);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+@keyframes bound {
+  0% {
+    transform: scale(0) translate(0, -500px);
+  }
+  50% {
+    transform: scaleX(2) translate(0, 200px);
+  }
+  70% {
+    transform: scaleY(0.5) translate(0, -100px);
+  }
+  90% {
+    transform: scaleX(1.5) translate(0, 50px);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+/* line 96, ../scss/style.scss */
+#welcome button[type="button"] {
+  background: black;
+  border-color: #ECEFF1;
+  color: white;
+  font-family: "Microsoft Sans Serif";
+}
+
+/* line 104, ../scss/style.scss */
+.section {
+  text-align: center;
+  padding: 20px 0;
+}
+/* line 107, ../scss/style.scss */
+.section h1 {
+  font-size: 6rem;
+  padding: 20px 0;
+}
+
+/* line 113, ../scss/style.scss */
+#about {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(./img/background1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* line 118, ../scss/style.scss */
+#about h1 {
+  color: white;
+}
+/* line 122, ../scss/style.scss */
+#about p {
+  font-size: 2rem;
+  padding: 15px 0;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 132, ../scss/style.scss */
+#organizers h1 {
+  color: #3F5AA7;
+}
+/* line 135, ../scss/style.scss */
+#organizers .row-member {
+  margin: 30px 0;
+}
+/* line 138, ../scss/style.scss */
+#organizers .iconWithName {
+  margin: 40px 0;
+}
+/* line 141, ../scss/style.scss */
+#organizers h2 {
+  margin: 20px;
+  margin-left: 100px;
+  display: inline;
+}
+/* line 146, ../scss/style.scss */
+#organizers ul {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+/* line 150, ../scss/style.scss */
+#organizers .organizers-comment li {
+  list-style-type: none;
+  color: #97AAA7;
+}
+
+/* line 156, ../scss/style.scss */
+#activities {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(./img/background2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* line 161, ../scss/style.scss */
+#activities h1 {
+  color: #1ABC9C;
+}
+/* line 164, ../scss/style.scss */
+#activities .row-activities {
+  padding: 30px 0;
+  margin: 30px 0;
+}
+/* line 168, ../scss/style.scss */
+#activities ul {
+  padding: 20px 0;
+}
+/* line 171, ../scss/style.scss */
+#activities li {
+  list-style-type: none;
+  text-align: left;
+  font-family: Quicksand, 'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic Pro', Meiryo, Osaka, 'MS PGothic', sans-serif;
+  color: #1ABC9C;
+  font-weight: bold;
+}
+
+/* line 180, ../scss/style.scss */
+#events {
+  background: #ECEFF1;
+}
+/* line 182, ../scss/style.scss */
+#events h1 {
+  color: #EE4156;
+}
+/* line 185, ../scss/style.scss */
+#events .row-events {
+  background: #ECEFF1;
+  padding: 30px 0;
+  margin: 30px 0;
+}
+/* line 190, ../scss/style.scss */
+#events li {
+  list-style-type: none;
+  text-align: left;
+  color: #97AAA7;
+}
+/* line 195, ../scss/style.scss */
+#events #pagetopBtn {
+  margin: 30px;
+}
+
+/* line 200, ../scss/style.scss */
+.footer {
+  color: #FFA500;
+  text-align: center;
+  padding: 20px 0;
+  background: black;
 }
