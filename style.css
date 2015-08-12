@@ -22,7 +22,7 @@
     #head>nav {
         display: inline;
     }
-    /*850px以下だとnav表示しない*/
+    /*865px以下だとnav表示しない*/
     @media screen and (max-width:865px) {
         #head>nav {
             display: none;
@@ -119,12 +119,12 @@
 
 /*中身のデザイン*/
 /*.section == #about + #organizers + #activities + #events*/
-.section {
+.listSection {
     text-align: center;
     padding: 20px 0;
 }
 
-    .section h1 {
+    .listSection h1 {
         font-size: 6rem;
         padding: 20px 0;
     }
@@ -146,7 +146,14 @@
         padding: 15px 0;
         line-height: 30px;
         color: white;
-        font-weight: bold;
+        text-shadow: 1px 1px 1px #000;
+    }
+    #about .credit {
+        text-align: right;
+    }
+    #about small {
+        color: #FFF;
+        margin-right: 5px;
     }
 
 #organizers {}
@@ -206,7 +213,19 @@
         text-align: left;
         font-family: Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'MS Pゴシック', 'MS PGothic', sans-serif;
         color: #1ABC9C;
-        font-weight: bold;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .more>a {
+        color: #FFF;
+        text-shadow: 1px 1px 1px #000;
+        text-decoration: none;
+    }
+    #activities .credit {
+        text-align: right;
+    }
+    #activities small {
+        margin: 5px;
+        color: #FFF;
     }
 
 #events {
@@ -227,6 +246,7 @@
         list-style-type: none;
         text-align: left;
         color: #97AAA7;
+        text-shadow: 1px 1px 1px #FFF;
     }
 
     #pagetopBtn {
