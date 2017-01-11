@@ -7,6 +7,8 @@
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./frontOsaka.js"></script>
+    <script src="https://skyway.io/dist/0.3/peer.min.js"></script>
+
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
     <title>FrontOsaka</title>
@@ -192,6 +194,16 @@
     </div>
     <div class="footer"><small>© 2015 frontkansai.net All Rights Reserved.</small></div>
   </body>
+  <script>
+  var peer = new Peer(myId, {key: 'yourApiKey'});
+
+  peer.on('open', function(id) {
+    var conn = peer.connect('anotherId');
+    conn.on('open', function() {
+      conn.send('hello world');
+    });
+  });
+  </script>
 </html>
 
 
